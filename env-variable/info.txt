@@ -1,0 +1,4 @@
+<<-----export TF_VAR_username='bob'----->
+
+
+username actually variable hain jo ki terraform file mein present hai 
