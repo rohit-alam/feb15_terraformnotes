@@ -1,0 +1,10 @@
+let's say in a file we have around 20-30 variable during execution time it's going to ask a lot of stuff and during run time we have another option like passing variables in run time but that will also be headache with so many variable.
+
+For resolving this we have tf-vars like how we can pass such variable data.  
+
+terraform.tfvars
+
+
+in the above file define your variable data that you want to pass and please dont change the terraform.tfvars to anyother thing.
+
+Agar execution k time par you are providing run time variable so it will consider that ignore the  terraform.tfvars else it will take data from it.
